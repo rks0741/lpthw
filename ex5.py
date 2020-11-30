@@ -1,19 +1,13 @@
-print("Mary had a little lamb")
-print("Its fleece was white as {}".format('snow'))
-print("And everywhere that Mary went.")
-print("."*40)
-
-end1 = "C"
-end2 = "h"
-end3 = "e"
-end4 = "e"
-end5 = "s"
-end6 = "e"
-end7 = "B"
-end8 = "u"
-end9 = "r"
-end10 = "g"
-end11 = "e"
-end12 = "r"
-print(end1 + end2 + end3 + end4 + end5 + end6, end=' ')
-print(end7 + end8 + end9 + end10 + end11 + end12)
+name = 'Yarik'
+age = 33
+height = 180
+weight = 84
+eyes = 'blue'
+hair = 'brown'
+print(f"Lets talk about {name}.")
+print(f"He is {height} cm tall")
+print(f"He is {weight} killos")
+print("actually that is not too heavy")
+print(f"He has {eyes} eyes and {hair} hair")
+total = age + height + weight
+print(f"It i add {age}, {height} and {weight}, i get total {total}")
