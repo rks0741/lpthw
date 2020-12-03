@@ -1,10 +1,25 @@
 
 from sys import argv
-script, filename = argv
-txt = open(filename)
-print(f"Here is your file {filename}:")
-print(txt.read())
-print("Please, type the filename again!")
-file_again=input("> ")
-txt_again=open(file_again)
-print(txt_again.read())
+from os.path import exists
+
+script, from_file, to_file = argv
+
+print(f"Copy from {from_file} to {to_file}")
+
+in_file = open(to_file)
+in_data = in_file.read()
+
+print(f"The input file is {len(in_data)} bytes long")
+
+print(f"does the output file exists? {exists(to_file)}")
+
+print("Ready. Hit return or CTRL+C to abort")
+input(">:  ")
+
+out_file = open (to_file, 'w')
+out_file = write(indata)
+
+print("Alright. all done")
+
+out_file.close()
+in_file.close()
