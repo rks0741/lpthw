@@ -1,7 +1,8 @@
 ## Animal is-a object (yes, confusing) look at the extra credit
 
 class Animal(object):
-    pass
+    def walk(self):
+        print("I am walking!")
 
 ## Dog is-a Animal class
 
@@ -34,7 +35,12 @@ class Employee(Person):
         self.salary = salary
 ##Fish is an object
 class Fish(object):
-    pass
+    ## fish has a name
+    def __init__(self, name):
+        self.name = name
+    ##fish can swim
+    def swim(self):
+        print(self.name, " ", " is swimming!")
 ## salmon is a Fish
 class Salmon(Fish):
     pass
@@ -46,7 +52,7 @@ class Halibut(Fish):
 
     #rover is a Dog
 rover = Dog("Rover")
-
+rover.walk()
 #Satan is a Cat
 satan = Cat("Satan")
 #Mary is a Person
@@ -58,8 +64,8 @@ frank = Employee("Frank", 120000)
 #Frank has a pet Rover
 frank.pet = rover
 #Flipper is a Fish
-flipper = Fish()
+flipper = Fish("Flipper")
+flipper.swim()
+crouse = Salmon("Crouse")
 
-crouse = Salmon()
-
-harry = Halibut()
+harry = Halibut("Harry")
