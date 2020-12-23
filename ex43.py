@@ -78,7 +78,7 @@ class LaserWeaponArmory(Scene):
         code = f"{int(1)},{int(2)},{int(1)}"
         print(code)
         guess = input("[keypad]> ")
-        guesses = 1
+        guesses = 0
 
         while guess != code and guesses < 10:
             print("BUZZED!!!")
