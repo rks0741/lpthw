@@ -1,0 +1,7 @@
+using docx2pdf import convert
+
+
+
+
+#bulk conversion of files
+convert('D:\work\rus\RHM-2\Дооснащение\Отправляем Терру и амк\Создание документов change 3 pluvio\ФО_Pluvio')
