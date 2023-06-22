@@ -20,7 +20,7 @@ line1 = input("line 1: ")
 line2 = input("line 2: ")
 line3 = input("line 3: ")
 
-print("I am goint ro write it into the file")
+print("I am going ro write it into the file")
 
 target.write(line1)
 target.write("\n")
