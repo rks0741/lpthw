@@ -5,3 +5,4 @@ height=input()
 print("How much do you weight?", end=' ')
 weight=input()
 print(f"So, you are {age} old, {height} tall and {weight} heavy.")
+55

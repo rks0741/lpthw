@@ -17,7 +17,7 @@ print("Ready. Hit return or CTRL+C to abort")
 input(">:  ")
 
 out_file = open (to_file, 'w')
-out_file = write(indata)
+out_file = write (in_data)
 
 print("Alright. all done")
 
